@@ -148,7 +148,7 @@ button.close:active {
 button.newQuestion {
     display: inline-block;
     border: none;
-    padding: 2rem 2rem;
+    padding: 7.5vw;
     margin: 0 auto;
     text-decoration: none;
     background: #001ca8;
