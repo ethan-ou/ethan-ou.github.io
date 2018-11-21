@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="./style.css">
     <link rel="stylesheet" type="text/css" href="./icons/css/all.css">
+
+    <script type="module" src="checkbox.js" async></script>
+
     <title>Deep & Meaningful</title>
   </head>
 
@@ -17,9 +20,9 @@
 
 
     <div class = "settings">
-      <h2>Question Type</h2>
+      <h2>Question Level</h2>
 
-        <div class = "checkboxes">
+        <div class = "checkboxes" id="levelCheck">
           <input type="checkbox" checked="checked" id="light"/>
              <label for="light"> Light</label>
            <br>
@@ -30,13 +33,12 @@
 
           <input type="checkbox" checked="checked" id="deep"/>
              <label for="deep"> Deep</label>
-         </ul>
 
        </div>
 
       <h2>Categories</h2>
 
-        <div class = "checkboxes">
+        <div class = "checkboxes" id="catCheck">
           <input type="checkbox" checked="checked" id="aspirations"/>
              <label for="aspirations"> Aspirations</label>
            <br>
@@ -64,8 +66,16 @@
           <input type="checkbox" checked="checked" id="worldview"/>
                 <label for="worldview"> Worldview</label>
           <br>
-         </ul>
-
      </div>
+
+     <!--<h2>Extras</h2>
+     <div class = "extras" id = "extras">
+       <button class="clearStorage" id="clearStorage">Clear Settings</button>
+
+       <br>
+
+       <input type="checkbox" class="nightMode" id="nightMode"/>
+              <label for="nightMode"> Night Mode</label>
+     </div>-->
   </body>
 </html>

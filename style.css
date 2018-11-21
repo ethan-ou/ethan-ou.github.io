@@ -31,7 +31,7 @@ body {
 /*Text Styling*/
 
 .upper h1 {
-    margin-top: 3vw;
+    margin-top: 8vw;
     margin-bottom: 4vw;
     font-size: 13vw;
     color: #333;
@@ -148,7 +148,7 @@ button.close:active {
 button.newQuestion {
     display: inline-block;
     border: none;
-    padding: 7.5vw;
+    padding: 6vw;
     margin: 0 auto;
     text-decoration: none;
     background: #001ca8;
@@ -169,6 +169,26 @@ button.newQuestion {
 
 button.newQuestion:active {
     background-color: #000156;
+    transition-duration: 50ms;
+}
+
+button.clearStorage {
+  display: inline-block;
+  border: none;
+  padding: 6vw;
+  margin: 0 auto;
+  text-decoration: none;
+  color: #333;
+  font-family: sans-serif;
+  cursor: pointer;
+  text-align: center;
+  border: 2px solid #333;
+  background-color: white;
+  cursor: pointer;
+}
+
+button.clearStorage:active {
+    background: #eee;
     transition-duration: 50ms;
 }
 
@@ -236,8 +256,8 @@ button.newQuestion:active {
     color: #001ca8;
     transform: rotate(-45deg);
 
-    left: 1.5vw;
-    top: 5.1vw;
+    left: 1.7vw;
+    top: 5.3vw;
 }
 
 /*Hide the checkmark by default*/

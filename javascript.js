@@ -1,6 +1,13 @@
 //import json
 import {questionList} from './scripts/database.js';
-//import * from 'checkbox.js';
+
+var retrievedLevel = localStorage.getItem("levelArray1");
+var retrievedCat = localStorage.getItem("catArray1");
+var levelArray = JSON.parse(retrievedLevel);
+var catArray = JSON.parse(retrievedCat);
+
+console.log(levelArray);
+console.log(catArray);
 //When you click on 'newQuestion', addEventListener automatically runs newQuestion
 document.getElementById('newQuestion').addEventListener('click', function() {
   newQuestion()
@@ -15,9 +22,24 @@ var questionTemp = [];
 var questionMemory = [];
 var questionShuffle = [];
 
-//temporary filters for testing. Link to checkboxes soon.
-var levelArray = ['light', 'medium', 'deep'];
-var catArray = ['aspirations', 'character,', 'fun', 'past', 'reflections', 'relationships', 'worldview'];
+// //temporary filters for testing. Link to checkboxes soon.
+if (levelArray == null || catArray == null || levelArray == 0 || catArray == 0) {
+  var levelArray = [];
+  var catArray = [];
+
+  questionList.forEach(function(elementOfList){
+      if (levelArray.indexOf(elementOfList.level) == -1){
+        levelArray.push(elementOfList.level); }
+
+      if (catArray.indexOf(elementOfList.category) == -1) {
+        catArray.push(elementOfList.category); }
+  })
+
+  console.log(levelArray, catArray);
+
+//  var levelArray = ['light', 'medium', 'deep'];
+//  var catArray = ['aspirations', 'character,', 'fun', 'past', 'reflections', 'relationships', 'worldview'];
+}
 
 //Master counter when iterating through question arrays later.
 var count = null;
@@ -84,13 +106,14 @@ console.log(questionLoaded);
 //the deck is reshuffled, and the count starts from 0 again. Every time
 //a new question is generated, the count goes up.
 
-
-//Implement LocalStorage memory for these arrays and the count variables.
-//You want to be able to load where you are in your question stack.
 function newQuestion(){
   //logs the question that's being displayed.
   //if the count is larger than questionLoaded, shuffle.
 
+  if (questionLoaded.length == 0) {
+    document.getElementById('questionCat').textContent = "You Cheeky!";
+    document.getElementById('questionDisplay').textContent = "Go back to the settings page and load something up :)";
+  }
 
   console.log("Pre-Count:", count);
   console.log("Pre-Total Count:", totalCount);
@@ -117,15 +140,19 @@ function newQuestion(){
   console.log("Question Loaded:", questionLoaded[count]);
   console.log("Question Memory:", questionMemory)
 
-
+  //Reshuffle!
   if (count==questionLoaded.length-1){
     questionLoaded = shuffle(questionLoaded);
     count = 0;
     console.log("reshuffled!");
   }
 
-  document.getElementById('questionCat').textContent = capitalise(questionMemory[totalCount].category);
-  document.getElementById('questionDisplay').textContent = questionMemory[totalCount].question;
+  //Display only if questions are loaded.
+  if (questionLoaded.length > 0) {
+    document.getElementById('questionCat').textContent = capitalise(questionMemory[totalCount].category);
+    document.getElementById('questionDisplay').textContent = questionMemory[totalCount].question;
+    localStorage.setItem("levelArray1", JSON.stringify(levelArray));
+    localStorage.setItem("catArray1", JSON.stringify(catArray)); }
 
   //logs each ID for questionMemory
 //   questionMemory.forEach(function(element){
@@ -147,4 +174,9 @@ function prevQuestion(){
 
   document.getElementById('questionCat').textContent = capitalise(questionMemory[totalCount].category);
   document.getElementById('questionDisplay').textContent = questionMemory[totalCount].question;
+  localStorage.setItem("levelArray1", JSON.stringify(levelArray));
+  localStorage.setItem("catArray1", JSON.stringify(catArray));
 }
+
+localStorage.setItem("levelArray1", JSON.stringify(levelArray));
+localStorage.setItem("catArray1", JSON.stringify(catArray));
