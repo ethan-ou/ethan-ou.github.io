@@ -215,9 +215,9 @@ html, body {
     background-color: transparent;
     width: 17vw;
     padding: 0vw 3vw;
-    position: fixed;
-    left: 41%;
-    top: 2vh;
+    position: relative;
+    left: 24%;
+    top: 4.8%;
     border: none;
     color: #001ca8;
     cursor: pointer;
