@@ -123,7 +123,7 @@ html, body {
  .select-radio {
     width:100%;
     margin:0;
-    padding:0 0 3vh;
+    padding:0 0 4vw;
     display:block;
   }
 
@@ -131,8 +131,8 @@ html, body {
   .radio-bg {
     display: block;
     position: relative;
-    top:1.6rem;
-    border: .1rem solid #000;
+    top:8.0vw;
+    border: 0.5vw solid #000;
     width: 55%;
   }
 
@@ -156,11 +156,11 @@ html, body {
   input[type=radio] + label:before {
     content: '';
     background-color: #fff;
-    border: .125rem solid #000;
+    border: 0.9vw solid #000;
     border-radius: 100%;
     display: inline-block;
-    width: 1.45rem;
-    height: 1.45rem;
+    width: 8vw;
+    height: 8vw;
     cursor: pointer;
   }
   
@@ -180,6 +180,7 @@ html, body {
     border-radius: 3vw;
     border: 1vw solid #b5c1ff;
     cursor: pointer;
+    outline: none;
     transition: background 50ms ease-in-out,
     transform 50ms ease;
   }
@@ -214,9 +215,9 @@ html, body {
     background-color: transparent;
     width: 17vw;
     padding: 0vw 3vw;
-    position: relative;
-    left: 25%;
-    top: 5%;
+    position: fixed;
+    left: 41%;
+    top: 3.5%;
     border: none;
     color: #001ca8;
     cursor: pointer;
