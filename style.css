@@ -156,7 +156,7 @@ html, body {
   input[type=radio] + label:before {
     content: '';
     background-color: #fff;
-    border: 0.9vw solid #000;
+    border: 1vw solid #000;
     border-radius: 100%;
     display: inline-block;
     width: 8vw;
@@ -296,7 +296,7 @@ html, body {
   }
 
   img.svg-category {
-    width: 22vw;
+      height: 15vh;
       display: block;
       text-align: center;
       padding: 6vw;
