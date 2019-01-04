@@ -1,277 +1,303 @@
+
 html, body {
   overflow-x: hidden;
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
   margin: 0;
 }
+  body {
+      font-family: sans-serif;
+      font-size: 6vw;
+  }
+  
+  .navigation {
+    height: 18vw;
+  }
+  
+  .upper {
+      position: relative;
+      padding-left: 6vw;
+      padding-right: 6vw;
+      top: 2vw;
+  }
+  
+  .lower {
+      text-align: center;
+      position: absolute;
+      bottom: 0%;
+      width: 100%;
+  }
 
-body {
-    font-family: sans-serif;
-    font-size: 6vw;
-}
+  /*Text Styling*/
+  h1 {
+    font-size: 15vw;
+    color: #333;
+  }
 
-.navigation {
-  height: 18vw;
-}
-
-.upper {
-    position: relative;
-    padding-left: 6vw;
-    padding-right: 6vw;
-    top: 2vw;
-}
-
-.lower {
-    text-align: center;
-    position: absolute;
-    bottom: 0%;
-    width: 100%;
-}
-
-/*Text Styling*/
-
-.upper h1 {
-    margin-top: 8vw;
-    margin-bottom: 4vw;
+  h2 {
     font-size: 13vw;
     color: #333;
-}
+  }
 
-.upper p {
-    margin-top: 3vw;
+  h3 {
+    font-size: 10vw;
+    color: #333; 
+  }
+
+  h4 {
+    font-size: 7vw;
+    color: #333;   
+  }
+
+  p {
     font-size: 7vw;
     color: #333;
-}
+  }
 
-#deepTitle, #deepSubtitle {
--webkit-animation: fadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
-   -moz-animation: fadein 1.5s; /* Firefox < 16 */
-    -ms-animation: fadein 1.5s; /* Internet Explorer */
-     -o-animation: fadein 1.5s; /* Opera < 12.1 */
-        animation: fadein 1.5s;
-}
+/*SPECIFIC TEXT STYLING*/
+  .upper h1 {
+      margin-top: 8vw;
+      margin-bottom: 4vw;
+  }
+  
+  .upper p {
+      margin-top: 3vw;
+  }
 
-@keyframes fadein {
-from { opacity: 0; }
-to   { opacity: 1; }
-}
+  .center {
+      text-align: center;
+  }
 
-/* Firefox < 16 */
-@-moz-keyframes fadein {
-from { opacity: 0; }
-to   { opacity: 1; }
-}
+  .margin-top-0 {
+      margin-top: 0vw;
+  }
 
-/* Safari, Chrome and Opera > 12.1 */
-@-webkit-keyframes fadein {
-from { opacity: 0; }
-to   { opacity: 1; }
-}
+  .select-subtitle {
+      margin: 0vw;
+  }
 
-/* Internet Explorer */
-@-ms-keyframes fadein {
-from { opacity: 0; }
-to   { opacity: 1; }
-}
+  .select p {
+    font-size: 5vw;
+    margin-left: 16vw;
+    margin-right: 16vw;
+  }
 
-/* Opera < 12.1 */
-@-o-keyframes fadein {
-from { opacity: 0; }
-to   { opacity: 1; }
-}
+  #title-category {
+    margin-top: 8vh;
+    margin-bottom: 2vh;
+  }
 
+  .border-left {
+    border-left: 1.5vw solid #001ca8;
+  }
 
-
-/*Button to go to the settings page*/
-
-button.settings {
-    background-color: transparent;
-    border: none;
-    color: #001ca8;
-    padding: 3vw 3vw;
+  .questionCat{
+      margin-bottom: 2vh;
+  }
+  
+  /*Animations*/
+  .deepTitle, .deepSubtitle {
+    text-align: center; 
+  -webkit-animation: fadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
+          animation: fadein 1.5s;
+  }
+  
+  @keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+  }
+  
+  /* Safari, Chrome and Opera > 12.1 */
+  @-webkit-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+  }
+  
+  /*RADIO BUTTONS*/
+.radio-frame {
+    width: 100vw;
+    display: block;
     text-align: center;
-    font-size: 10vw;
-    cursor: pointer;
-    outline: none;
-    box-shadow: none;
 }
 
+ .select-radio {
+    width:100%;
+    margin:0;
+    padding:0 0 3vh;
+    display:block;
+  }
 
-button.settings:active {
-    color: #000156;
-    transform: scale(0.95);
+  /*Bar behind checkboxes*/
+  .radio-bg {
+    display: block;
+    position: relative;
+    top:1.6rem;
+    border: .1rem solid #000;
+    width: 55%;
+  }
 
-}
+  /*Placement of radio buttons*/
+  .select-radio li {
+    display:inline-block;
+    width:18%;
+  }
 
-button.previous {
-    background-color: transparent;
-    border: none;
+  .select-radio li input[type=radio] {
     position: absolute;
-    transform: scale(0.85);
-    right: 0%;
-    color: #001ca8;
-    padding: 2.75vw 2.75vw;
-    text-align: center;
-    font-size: 10vw;
-    cursor: pointer;
-    outline: none;
-    box-shadow: none;
-}
-
-button.previous:active {
-    color: #000156;
-    transform: scale(0.8);
-
-}
-
-button.close {
-    background-color: transparent;
-    border: none;
-    color: #001ca8;
-    padding: 2.75vw 4.5vw;
-    transform: scale(1.05);
-    text-align: center;
-    font-size: 10vw;
-    cursor: pointer;
-    outline: none;
-    box-shadow: none;
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
-    -webkit-tap-highlight-color: transparent;
-}
-
-button.close:active {
-    color: #000156;
-    transform: scale(0.95);
-}
-
-/*Button for new questions*/
-button.newQuestion {
+    clip: rect(1px 1px 1px 1px);
+  }
+  
+  input[type=radio] + label {
+    z-index: 1;
+    position: relative;
+  }
+  
+  /*New Radio Buttons*/
+  input[type=radio] + label:before {
+    content: '';
+    background-color: #fff;
+    border: .125rem solid #000;
+    border-radius: 100%;
     display: inline-block;
-    border: none;
-    padding: 6vw;
-    margin: 0 auto;
-    text-decoration: none;
-    background: #001ca8;
-    color: #ffffff;
-    font-family: sans-serif;
-    font-size: 10vw;
+    width: 1.45rem;
+    height: 1.45rem;
     cursor: pointer;
-    text-align: center;
-    width: 100%;
-    float: none;
-    max-width: auto;
-    outline: none;
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
-    -webkit-tap-highlight-color: transparent;
+  }
+  
+  input[type=radio]:checked + label:before {
+    background-color: #b5c1ff;
+    /* box-shadow: inset 0 0 0 .1rem rgba(255, 255, 255, .95); */
+  }
+  
+  /*Buttons*/
+  button.push {
+    background-color: #001ca8;
+    color: #ffffff;
+    font-size: 7vw;
+    padding: 3vw 14vw;
+    margin: 9vw;
+    display: inline-block;
+    border-radius: 3vw;
+    border: 1vw solid #b5c1ff;
+    cursor: pointer;
     transition: background 50ms ease-in-out,
-                transform 50ms ease;
-}
+    transform 50ms ease;
+  }
 
-button.newQuestion:active {
+  button.push:active {
     background-color: #000156;
     transition-duration: 50ms;
+    transform: scale(0.98);
 }
-
-button.clearStorage {
-  display: inline-block;
-  border: none;
-  padding: 6vw;
-  margin: 0 auto;
-  text-decoration: none;
-  color: #333;
-  font-family: sans-serif;
-  cursor: pointer;
-  text-align: center;
-  border: 2px solid #333;
-  background-color: white;
-  cursor: pointer;
-}
-
-button.clearStorage:active {
-    background: #eee;
-    transition-duration: 50ms;
-}
-
-/*SETTINGS PAGE*/
-.settings {
-    padding-left: 6vw;
-    padding-right: 6vw;
-    overflow-y: scroll;
-}
-
-::-webkit-scrollbar {
-    width: 0px;
-    background: transparent;
-}
-
-.settings h2 {
-    line-height: 50%;
-}
-
-/*disable original checkboxes*/
-.checkboxes input[type="checkbox"] {
-    opacity: 0;
-}
-
-/*checkbox text*/
-.checkboxes label {
+  
+  /*Button to go to the settings page*/
+  
+  button.settings {
+      background-color: transparent;
+      border: none;
+      color: #001ca8;
+      padding: 3vw 3vw;
+      text-align: center;
+      font-size: 10vw;
+      cursor: pointer;
+      outline: none;
+      box-shadow: none;
+  }
+  
+  
+  button.settings:active {
+      color: #000156;
+      transform: scale(0.95);
+  }
+  
+  button.select-icon {
+    background-color: transparent;
+    width: 17vw;
+    padding: 0vw 3vw;
     position: relative;
-    display: inline-block;
-
-    /*16px width of fake checkbox + 14px distance between fake checkbox and text*/
-    padding-left: 10vw;
-    line-height: 14vw;
-}
-
-/*position before and after tick*/
-.checkboxes label::before,
-.checkboxes label::after {
-    position: absolute;
-    content: "";
-
-    /*Needed for the line-height to take effect*/
-    display: inline-block;
-}
-
-/*Outer box of the fake checkbox*/
-.checkboxes label::before {
-    height: 5.75vw;
-    width: 5.75vw;
+    left: 25%;
+    top: 5%;
+    border: none;
     color: #001ca8;
-    border: 0.7vw solid;
-    left: 0.2vw;
+    cursor: pointer;
+    box-shadow: none;
+  }
 
-    /*(24px line-height - 16px height of fake checkbox) / 2 - 1px for the border
-     *to vertically center it.
-     */
-    top: 3.5vw;
+  button.select-icon:active {
+    color: #000156;
+    transform: scale(0.95);
 }
 
-/*Checkmark of the fake checkbox*/
-.checkboxes label::after {
-    height: 1.5vw;
-    width: 3.5vw;
-    border-left: 0.7vw solid;
-    border-bottom: 0.7vw solid;
-    color: #001ca8;
-    transform: rotate(-45deg);
+  button.previous {
+      background-color: transparent;
+      border: none;
+      position: absolute;
+      transform: scale(0.85);
+      right: 0%;
+      color: #001ca8;
+      padding: 2.75vw 2.75vw;
+      text-align: center;
+      font-size: 10vw;
+      cursor: pointer;
+      outline: none;
+      box-shadow: none;
+  }
+  
+  button.previous:active {
+      color: #000156;
+      transform: scale(0.8);
+  
+  }
+  
+  button.close {
+      background-color: transparent;
+      border: none;
+      color: #001ca8;
+      padding: 2.75vw 4.5vw;
+      transform: scale(1.05);
+      text-align: center;
+      font-size: 10vw;
+      cursor: pointer;
+      outline: none;
+      box-shadow: none;
+      -webkit-tap-highlight-color: rgba(0,0,0,0);
+      -webkit-tap-highlight-color: transparent;
+  }
+  
+  button.close:active {
+      color: #000156;
+      transform: scale(0.95);
+  }
+  
+  /*SETTINGS PAGE*/
+  .settings {
+      padding-left: 6vw;
+      padding-right: 6vw;
+      overflow-y: scroll;
+  }
+  
+  ::-webkit-scrollbar {
+      width: 0px;
+      background: transparent;
+  }
+  
+  .settings h2 {
+      line-height: 50%;
+  }
+  
+  /*SVG*/
+  img.svg-intro {
+      width: 22vw;
+      display: block;
+      text-align: center;
+      padding: 10vw 0vw 0vw 0vw;
+      margin: auto;
+  }
 
-    left: 1.7vw;
-    top: 5.3vw;
-}
-
-/*Hide the checkmark by default*/
-.checkboxes input[type="checkbox"] + label::after {
-    content: none;
-}
-
-/*Unhide on the checked state*/
-.checkboxes input[type="checkbox"]:checked + label::after {
-    content: "";
-}
-
-/*Adding focus styles on the outer-box of the fake checkbox*/
-.checkboxes input[type="checkbox"]:focus + label::before {
-    outline: #001eff  auto 4px;
-
-}
+  img.svg-category {
+    width: 22vw;
+      display: block;
+      text-align: center;
+      padding: 6vw;
+      margin: auto;
+  }

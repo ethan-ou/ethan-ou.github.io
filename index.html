@@ -1,40 +1,21 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="./style.css">
-    <link rel="stylesheet" type="text/css" href="./icons/css/all.css">
-
-    <script type="module" src="scripts/database.js"></script>
-    <script type="module" src="javascript.js"></script>
-
-    <title>Deep & Meaningful</title>
-  </head>
-
-
-  <body>
-      <div class = "navigation">
-          <button class="settings" onclick="window.location.href='./settings.html';">
-            <i class="fa fa-cog"></i>
-          </button>
-          <button class="previous" id="prevQuestion">
-            <i class="fas fa-undo"></i>
-          </button>
-      </div>
-
-      <div class="upper">
-        <h1 id="questionCat"></h1>
-        <p id="questionDisplay"></p>
-
-        <h1 id="deepTitle"></h1>
-        <p id="deepSubtitle"></p>
-
-      </div>
-
-      <div class="lower">
-        <button class="newQuestion" id="newQuestion">New Question</button>
-      </div>
-
-  </body>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>Intro</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="upper">
+            <img class="svg-intro" src="./icons/svg/conversation-bold.svg">
+            <h1 class="deepTitle">Deep and Meaningful</h1>
+            <p class="deepSubtitle">Ask someone you care about a question.</p>
+        </div>
+        <div class="lower">
+            <button id="push" class="push" onclick="window.location.href='./select.html';">Next</button>
+        </div>
+    </body>
 </html>
