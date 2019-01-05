@@ -1,4 +1,5 @@
 import {categories} from './scripts/categories.js';
+import {nightMode} from './night.js';
 
 var radioFrame = document.getElementById("radio-frame");
 var radio = radioFrame.getElementsByTagName('input');
@@ -6,6 +7,7 @@ var selected = null;
 
 window.addEventListener('onload', retrieveStorage());
 window.addEventListener('onclick', radioClick());
+document.getElementById('night-mode').addEventListener('click', display);
 
 //Gets storage. If there's something in storage, it passes the value to "selected".
 function retrieveStorage() {
@@ -58,7 +60,13 @@ function radioClick() {
 function display() {
     document.getElementById('category').textContent = categories[selected].name;
     document.getElementById('description').textContent = categories[selected].description;
-    document.getElementById("svg-category").src = categories[selected].image;
+
+    if (nightMode == "1"){
+        document.getElementById("svg-category").src = categories[selected].imageNight;
+    } else {
+        document.getElementById("svg-category").src = categories[selected].image;
+    }
+    
 }
 
 //Pushes the value of the selected radio button to storage.

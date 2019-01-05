@@ -31,7 +31,8 @@ window.addEventListener('onload', retrieveStorage());
 //Retrieves Storage. If retrieved is null, then set to 0 (fun).
 function retrieveStorage() {
     if (retrievedSelected == null) { 
-        retrievedSelected = 0;
+        retrievedSelected = "0";
+        localStorage.setItem("selected", JSON.stringify(retrievedSelected));
     }
     sortQuestionList();
 } 
