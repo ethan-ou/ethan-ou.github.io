@@ -32,6 +32,7 @@ document.getElementById('push-select').addEventListener('click', clearStorage);
 //If you don't change categories, the rest of the function doesn't run.
 function clearStorage() {
     storageSelected = localStorage.getItem("selected");
+    
     if (retrievedSelected != JSON.parse(storageSelected)) {
     count = null;
     showCount = null;
@@ -60,6 +61,11 @@ function retrieveStorage() {
 function sortQuestionList() {
     questionList.forEach(function(question){
         if (question.level == retrievedSelected){
+            sortedQuestions.push(question);
+        }
+
+        //Additional case to push deep questions when selecting the intimate category.
+        if (retrievedSelected == '3' && question.level == 2) {
             sortedQuestions.push(question);
         }
     })
