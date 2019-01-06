@@ -5,8 +5,8 @@ var showCount = null;
 var sortedQuestions = [];
 var memory = [];
 
-var storageSelected = localStorage.getItem("selected");
-var retrievedSelected = JSON.parse(storageSelected);
+var storageSelected;
+var retrievedSelected;
 
 //Fisher-Yates Shuffle
 function shuffle(array) {
@@ -26,10 +26,29 @@ function shuffle(array) {
 }  
 
 //ON LOAD ---------------
-window.addEventListener('onload', retrieveStorage());
+document.getElementById('push-select').addEventListener('click', clearStorage);
+
+//Clears storage so that if you change categories, you clear previous question data.
+//If you don't change categories, the rest of the function doesn't run.
+function clearStorage() {
+    storageSelected = localStorage.getItem("selected");
+    if (retrievedSelected != JSON.parse(storageSelected)) {
+    count = null;
+    showCount = null;
+    sortedQuestions = [];
+    memory = [];
+    storageSelected = null;
+    retrievedSelected = null;
+    } else if (retrievedSelected != null) {
+        return;
+    }
+    retrieveStorage();
+}
 
 //Retrieves Storage. If retrieved is null, then set to 0 (fun).
 function retrieveStorage() {
+    storageSelected = localStorage.getItem("selected");
+    retrievedSelected = JSON.parse(storageSelected);
     if (retrievedSelected == null) { 
         retrievedSelected = "0";
         localStorage.setItem("selected", JSON.stringify(retrievedSelected));

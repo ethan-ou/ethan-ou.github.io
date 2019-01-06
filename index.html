@@ -15,69 +15,70 @@
         <script type="module" src="night.js"></script>
     </head>
     <body>
-        <div id="index">
-            <div class="upper">
-                <img class="svg-intro" id="svg-intro" src="">
-                <h1 class="deepTitle">Deep and Meaningful</h1>
-                <p class="deepSubtitle">Ask someone you care about a question.</p>
-            </div>
-            <div class="lower">
-                <button id="push-index" class="push">Next</button>
-            </div>
-        </div>
-
-        <div id="select">
-            <div class="select">
-                <h3 class="center" id="title-category">What style of questions?</h3>
-                <img class="svg-category" id="svg-category" src="">
-                <h4 class="center select-subtitle" id="category"></h4>
-                <div class="radio-frame" id="radio-frame">
-                    <ul class="select-radio">
-                        <hr class="radio-bg">
-                    <li>
-                        <input type="radio" name="radio-check" value="0" id="check-0" checked="checked"><label for="check-0"></label>
-                    </li>
-                    <li>
-                        <input type="radio" name="radio-check" value="1" id="check-1"><label for="check-1"></label>
-                    </li>
-                    <li>
-                        <input type="radio" name="radio-check" value="2" id="check-2"><label for="check-2"></label>
-                    </li>
-                    <li>
-                        <input type="radio" name="radio-check" value="3" id="check-3"><label for="check-3"></label>
-                    </li>
-                    </ul>
-                    <p class="center margin-top-0" id="description"></p>
-                    </div>
+        <div class="app-wrapper">
+            <div id="index">
+                <div class="upper">
+                    <img class="svg-intro" id="svg-intro" src="">
+                    <h1 class="deepTitle">Deep and Meaningful</h1>
+                    <p class="deepSubtitle">Ask someone you care about a question.</p>
                 </div>
                 <div class="lower">
-                    <button id="push-select" class="push">Begin!</button>
+                    <button id="push-index" class="push">Next</button>
                 </div>
-        </div>
-
-        <div id="question">
-            <div class = "navigation">
-                    <button class="settings" id="night-mode">
-                        <i class="fa fa-moon"></i>
-                    </button>
-                    <button class="select-icon" id="select-icon">
-                        <img id="svg-select" src="">
-                    </button>
-                    <button class="previous" id="prevQuestion">
-                        <i class="fas fa-undo"></i>
-                    </button>
             </div>
+
+            <div id="select">
+                <div class="select">
+                    <h3 class="center" id="title-category">What style of questions?</h3>
+                    <img class="svg-category" id="svg-category" src="">
+                    <h4 class="center select-subtitle" id="category"></h4>
+                    <div class="radio-frame" id="radio-frame">
+                        <ul class="select-radio">
+                            <hr class="radio-bg">
+                        <li>
+                            <input type="radio" name="radio-check" value="0" id="check-0" checked="checked"><label for="check-0"></label>
+                        </li>
+                        <li>
+                            <input type="radio" name="radio-check" value="1" id="check-1"><label for="check-1"></label>
+                        </li>
+                        <li>
+                            <input type="radio" name="radio-check" value="2" id="check-2"><label for="check-2"></label>
+                        </li>
+                        <li>
+                            <input type="radio" name="radio-check" value="3" id="check-3"><label for="check-3"></label>
+                        </li>
+                        </ul>
+                        <p class="center margin-top-0" id="description"></p>
+                        </div>
+                    </div>
+                    <div class="lower">
+                        <button id="push-select" class="push">Begin!</button>
+                    </div>
+            </div>
+
+            <div id="question">
+                <div class = "navigation">
+                        <button class="settings" id="night-mode">
+                            <i class="fa fa-moon"></i>
+                        </button>
+                        <button class="select-icon" id="select-icon">
+                            <img id="svg-select" src="">
+                        </button>
+                        <button class="previous" id="prevQuestion">
+                            <i class="fas fa-undo"></i>
+                        </button>
+                </div>
+                
+                <div class="upper">
+                    <h2 class="questionCat" id="questionCat"></h2>
+                    <p id="questionDisplay"></p>
+                </div>
             
-            <div class="upper">
-                <h2 class="questionCat" id="questionCat"></h2>
-                <p id="questionDisplay"></p>
+                <div class="lower">
+                    <button class="push" id="newQuestion">Next</button>
+                </div>
+            
             </div>
-        
-            <div class="lower">
-                <button class="push" id="newQuestion">Next</button>
-            </div>
-          
         </div>
-
     </body>
 </html>
