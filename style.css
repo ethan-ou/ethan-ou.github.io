@@ -93,7 +93,7 @@ p {
   margin-bottom: 2vh;
 }
 
-.questionCat {
+.questionCat{
     margin-bottom: 2vh;
 }
 
@@ -213,8 +213,7 @@ button.settings:active {
 
 button.select-icon {
   background-color: transparent;
-  width: 3.75rem;
-  margin-top:0.3rem;
+  width: 3.5rem;
   border: none;
   color: #001ca8;
   cursor: pointer;
@@ -321,12 +320,12 @@ img.svg-category {
 
 .night-mode input[type=radio] + label:before {
   background-color: #333;
-  border: 0.2rem solid #fff;
+  border: 0.3rem solid #fff;
 }
 
 .night-mode input[type=radio]:checked + label:before {
   background-color: #b5c1ff;
-  border: 0.2rem solid #fff;
+  border: 0.3rem solid #fff;
   /* box-shadow: inset 0 0 0 .1rem rgba(255, 255, 255, .95); */
 }
 
