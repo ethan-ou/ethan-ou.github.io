@@ -285,7 +285,7 @@ var questionList = [
         "category": "reflections"
     },
     {
-        "question": "When you're older, what do you think your grandchildren will ask you to tell stories about?",
+        "question": "When you're older, what do you think children will ask you to tell stories about?",
         "level": 2,
         "category": "reflections"
     },
@@ -325,7 +325,7 @@ var questionList = [
         "category": "reflections"
     },
     {
-        "question": "Do you think your values would be different if you grew up in another family? If so, what would change?",
+        "question": "Would you value the same things if you grew up in another family?",
         "level": 2,
         "category": "reflections"
     },
@@ -475,7 +475,7 @@ var questionList = [
         "category": "relationships"
     },
     {
-        "question": "If you could redesign your funeral around a theme or message, what would you choose?",
+        "question": "If you could choose the songs that would play at your funeral, what would they be?",
         "level": 2,
         "category": "relationships"
     },
@@ -941,11 +941,6 @@ var questionList = [
     },
     {
         "question": "Name one thing that's become more important to you in the last year, and one thing that's no longer as important.",
-        "level": 2,
-        "category": "reflections"
-    },
-    {
-        "question": "List three of the biggest choices that have led you to where you are today.",
         "level": 2,
         "category": "reflections"
     },
@@ -1660,7 +1655,7 @@ var questionList = [
         "category": "relationships"
     },
     {
-        "question": "What's the first thing you notice about a person when you meet them?",
+        "question": "What's the first thing you notice about a person?",
         "level": 1,
         "category": "relationships"
     },
@@ -1668,11 +1663,6 @@ var questionList = [
         "question": "Are there any small things you do to make your relationships stronger?",
         "level": 1,
         "category": "relationships"
-    },
-    {
-        "question": "Imagine you were getting paid $150,000 at a job you hated. Would you drop two-thirds of that salary if you had a suspicion you'd be laughing everyday at your new job?",
-        "level": 1,
-        "category": "worldview"
     },
     {
         "question": "How do you think you'll evolve in the next three years?",
@@ -1725,7 +1715,7 @@ var questionList = [
         "category": "worldview"
     },
     {
-        "question": "If you had to teach a class in university, what would it be about? How would taking your course help people?",
+        "question": "If you had to teach a class on one thing, what would you teach?",
         "level": 1,
         "category": "worldview"
     },
@@ -1740,7 +1730,7 @@ var questionList = [
         "category": "worldview"
     },
     {
-        "question": "Assume someone in the world right now is jealous of you. What is the most likely thing they're jealous of? Do you think their jealousy has merit?",
+        "question": "If you heard someone was jealous of you, what would they most likely be jealous of?",
         "level": 1,
         "category": "worldview"
     },
@@ -1780,7 +1770,7 @@ var questionList = [
         "category": "worldview"
     },
     {
-        "question": "If you were given a year to do whatever you wanted, what would you do after travelling all over the world?",
+        "question": "If you were given a year to do whatever you wanted, what would you do (after you travelled the world)?",
         "level": 1,
         "category": "worldview"
     },
@@ -1913,6 +1903,246 @@ var questionList = [
         "question": "What's something you've gotten very easily in your life that lots of other people don't?",
         "level": 1,
         "category": "reflections"
+    },
+    {
+        "question": "If you were born in the 80s, how do you think you would have turned out differently?",
+        "level": 0,
+        "category": "reflections"
+    },
+    {
+        "question": "Would you rather be twice as smart as you are now? Or have an extra 8 years to live?",
+        "level": 1,
+        "category": "worldview"
+    },
+    {
+        "question": "Is traveling the world an actual pursuit you have or just a fantasy you like to think about?",
+        "level": 1,
+        "category": "reflections"
+    },
+    {
+        "question": "In your life so far, do you believe you've caused more pain or more pleasure to the people around you?",
+        "level": 2,
+        "category": "reflections"
+    },
+    {
+        "question": "Out of the people here, who would you least want to bring in a zombie apocalypse?",
+        "level": 0,
+        "category": "fun"
+    },
+    {
+        "question": "If you were a wrestler what would be your entrance theme song?",
+        "level": 0,
+        "category": "fun"
+    },
+    {
+        "question": "If you were required by law to give your car a name and a gender, what would you pick?",
+        "level": 0,
+        "category": "fun"
+    },
+    {
+        "question": "If you could only keep three apps on your phone, what would you keep?",
+        "level": 1,
+        "category": "reflections"
+    },
+    {
+        "question": "Which TV sitcom would you want to live in?",
+        "level": 0,
+        "category": "fun"
+    },
+    {
+        "question": "If you were a dog, what breed would you be?",
+        "level": 0,
+        "category": "fun"
+    },
+    {
+        "question": "What's the weirdest food you've eaten?",
+        "level": 0,
+        "category": "fun"
+    },
+    {
+        "question": "You can have an unlimited supply of one thing for the rest of your life, what is it? Bubble Tea? Earphones?",
+        "level": 0,
+        "category": "fun"
+    },
+    {
+        "question": "If you could listen to one song or watch one movie again for the first time, what would you pick?",
+        "level": 1,
+        "category": "fun"
+    },
+    {
+        "question": "If you could be guaranteed one thing in life (besides money), what would it be?",
+        "level": 2,
+        "category": "worldview"
+    },
+    {
+        "question": "If you had to design your own reality TV show, what would it be?",
+        "level": 0,
+        "category": "fun"
+    },
+    {
+        "question": "Would you rather lose all your photos or your past messaging history?",
+        "level": 1,
+        "category": "relationships"
+    },
+    {
+        "question": "Which time of day best represents you? Sunrise, daylight, afternoon, twilight, or night?",
+        "level": 0,
+        "category": "fun"
+    },
+    {
+        "question": "Did you ever think that high school or university was an endless party because of the movies you watched growing up?",
+        "level": 1,
+        "category": "culture"
+    },
+    {
+        "question": "What’s the most interesting thing you’ve read or experienced this week?",
+        "level": 0,
+        "category": "fun"
+    },
+    {
+        "question": "What's the worst that someone's tricked you into believing or doing?",
+        "level": 0,
+        "category": "fun"
+    },
+    {
+        "question": "What’s the most useless talent you have?",
+        "level": 0,
+        "category": "fun"
+    },
+    {
+        "question": "What do you think it would be like to grow up in the generation after us?",
+        "level": 1,
+        "category": "culture"
+    },
+    {
+        "question": "What’s one thing people wouldn't know just by looking at you?",
+        "level": 1,
+        "category": "reflections"
+    },
+    {
+        "question": "If you could only have one sense (sight, hearing, touch) which would you prefer?",
+        "level": 1,
+        "category": "fun"
+    },
+    {
+        "question": "If you see a puddle on the ground, do you walk around or over it?",
+        "level": 0,
+        "category": "fun"
+    },
+    {
+        "question": "Before making a telephone call, do you ever rehearse what you are going to say? ",
+        "level": 1,
+        "category": "fun"
+    },
+    {
+        "question": "What's one way you could die that your friends would hear and be completely unsurprised about?",
+        "level": 2,
+        "category": "fun"
+    },
+    {
+        "question": "If you could change anything about the way you were raised, what would it be?",
+        "level": 1,
+        "category": "past"
+    },
+    {
+        "question": "What's been the greatest accomplishment of your life so far?",
+        "level": 1,
+        "category": "reflections"
+    },
+    {
+        "question": "Name three things you admire about the other person.",
+        "level": 3,
+        "category": "relationships"
+    },
+    {
+        "question": "Share a personal problem and ask the other person for advice on how he or she might handle it.",
+        "level": 3,
+        "category": "reflections"
+    },
+    {
+        "question": "Is pizza just an open faced sandwich?",
+        "level": 0,
+        "category": "fun"
+    },
+    {
+        "question": "What's your ideal breakfast?",
+        "level": 0,
+        "category": "fun"
+    },
+    {
+        "question": "What do you hate?",
+        "level": 1,
+        "category": "fun"
+    },
+    {
+        "question": "Do you ever wonder if dogs name humans?",
+        "level": 0,
+        "category": "fun"
+    },
+    {
+        "question": "Have you ever experienced love? If so, when was the first moment you realised?",
+        "level": 2,
+        "category": "relationships"
+    },
+    {
+        "question": "Think of a hobby you like. What's something important you need to know before doing it?",
+        "level": 1,
+        "category": "reflections"
+    },
+    {
+        "question": "What is something you really want to buy but won't?",
+        "level": 0,
+        "category": "fun"
+    },
+    {
+        "question": "What's the most kind or beautiful thing you've overheard about yourself by accident?",
+        "level": 1,
+        "category": "reflections"
+    },
+    {
+        "question": "If someone borrowed your body for a week, what quirks would you tell them about so they are prepared?",
+        "level": 0,
+        "category": "fun"
+    },
+    {
+        "question": "If you died today, and in the afterlife you're handed a book that contains all stats from your life, which stat will you look up first and why?",
+        "level": 1,
+        "category": "fun"
+    },
+    {
+        "question": "What’s a very common thing that you can't relate to?",
+        "level": 1,
+        "category": "fun"
+    },
+    {
+        "question": "What's the most real relationship advice you can give?",
+        "level": 1,
+        "category": "relationships"
+    },
+    {
+        "question": "What are some small things that you silently judge people on?",
+        "level": 1,
+        "category": "fun"
+    },
+    {
+        "question": "What are some of the best choices you've made in your life?",
+        "level": 2,
+        "category": "reflections"
+    },
+    {
+        "question": "What is something that really freaks you out on an existential level?",
+        "level": 2,
+        "category": "reflections"
+    },
+    {
+        "question": "What's an absolute turn off about your own personality that you're aware of but can't help?",
+        "level": 1,
+        "category": "character"
+    },
+    {
+        "question": "What's the most memorable moment you shared with a stranger who you never saw again?",
+        "level": 1,
+        "category": "fun"
     }
 ]
 
