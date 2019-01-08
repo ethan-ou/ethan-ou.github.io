@@ -4,6 +4,7 @@ document.getElementById('push-select').addEventListener('click', showQuestion);
 document.getElementById('select-icon').addEventListener('click', showSelect);
 
 function showIndex() {
+    document.getElementById("app-wrapper").style.display = "";
     document.getElementById("index").style.display = "";
     document.getElementById("select").style.display = "none";
     document.getElementById("question").style.display = "none";

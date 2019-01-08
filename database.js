@@ -285,7 +285,7 @@ var questionList = [
         "category": "reflections"
     },
     {
-        "question": "When you're older, what do you think your children will ask you to tell stories about?",
+        "question": "When you're older, what do you think children will ask you to tell stories about?",
         "level": 2,
         "category": "reflections"
     },
@@ -555,6 +555,11 @@ var questionList = [
         "category": "relationships"
     },
     {
+        "question": "If someone you loved was killed in a car crash but was cloned to be indistinguishable from your real partner, would you think of them as the same person and love them the same?",
+        "level": 2,
+        "category": "relationships"
+    },
+    {
         "question": "Who in your life do you wish you'd met sooner?",
         "level": 2,
         "category": "relationships"
@@ -580,7 +585,7 @@ var questionList = [
         "category": "relationships"
     },
     {
-        "question": "Growing up, did you have a rebellious phase with your parents?",
+        "question": "Growing up, did you find it easier to respect or disrespect your parents?",
         "level": 2,
         "category": "relationships"
     },
@@ -620,6 +625,11 @@ var questionList = [
         "category": "relationships"
     },
     {
+        "question": "What would you do if your future daughter was using soft drugs? How would you react?",
+        "level": 2,
+        "category": "relationships"
+    },
+    {
         "question": "What's one thing you want your friends or loved ones to be better at than you are?",
         "level": 2,
         "category": "relationships"
@@ -630,7 +640,7 @@ var questionList = [
         "category": "relationships"
     },
     {
-        "question": "What do you wish you understood about your parents?",
+        "question": "What do you wish you understood about your parents, that you never fully got by asking them?",
         "level": 2,
         "category": "relationships"
     },
@@ -745,6 +755,11 @@ var questionList = [
         "category": "worldview"
     },
     {
+        "question": "Do you believe that people become good or bad through their environment? Or are they born that way?",
+        "level": 2,
+        "category": "worldview"
+    },
+    {
         "question": "Do you think seeking truth is a way of life, or a phase people go through when growing up?",
         "level": 2,
         "category": "worldview"
@@ -821,6 +836,11 @@ var questionList = [
     },
     {
         "question": "Do you think technology on the whole, has helped us become better human beings? Or has it made us more isolated?",
+        "level": 2,
+        "category": "worldview"
+    },
+    {
+        "question": "Most universities think that making students question their beliefs is a good thing. At what point do you believe questioning one's own beliefs becomes counterproductive?",
         "level": 2,
         "category": "worldview"
     },
@@ -945,7 +965,7 @@ var questionList = [
         "category": "aspirations"
     },
     {
-        "question": "If school was free and marks didn't matter, what classes would you try taking?",
+        "question": "If school was free and you didn't have a WAM or a GPA, what classes would you try taking?",
         "level": 0,
         "category": "aspirations"
     },
@@ -1615,7 +1635,7 @@ var questionList = [
         "category": "relationships"
     },
     {
-        "question": "When people come to you for advice, what do they ask?",
+        "question": "What do people tend to come to you about?",
         "level": 1,
         "category": "relationships"
     },
@@ -1760,7 +1780,7 @@ var questionList = [
         "category": "worldview"
     },
     {
-        "question": "If you could implant an experience into people's minds, what would you want others to see?",
+        "question": "If you could implant an idea into every person's mind, what would you choose?",
         "level": 1,
         "category": "worldview"
     },
@@ -2123,456 +2143,6 @@ var questionList = [
         "question": "What's the most memorable moment you shared with a stranger who you never saw again?",
         "level": 1,
         "category": "fun"
-    },
-    {
-        "question": "Which year in the past did you feel like you learnt the most about yourself?",
-        "level": 2,
-        "category": "reflections"
-    },
-    {
-        "question": "If you had a warning label, what would yours say?",
-        "level": 1,
-        "category": "fun"
-    },
-    {
-        "question": "If you had one day where you couldn't work or talk to people, what would you do?",
-        "level": 1,
-        "category": "character"
-    },
-    {
-        "question": "How do you think you're similar to me?",
-        "level": 3,
-        "category": "relationships"
-    },
-    {
-        "question": "Is it harder for you to focus on the outside world or your inner feelings?",
-        "level": 1,
-        "category": "character"
-    },
-    {
-        "question": "What's your favourite thing about me?",
-        "level": 3,
-        "category": "character"
-    },
-    {
-        "question": "What do you think is the most important lesson you can teach a child?",
-        "level": 2,
-        "category": "worldview"
-    },
-    {
-        "question": "What has been the most memorable moment you've had with me?",
-        "level": 3,
-        "category": "past"
-    },
-    {
-        "question": "If this was your last conversation ever with another person, what would you say?",
-        "level": 2,
-        "category": "relationships"
-    },
-    {
-        "question": "What are three positive character traits you don't have?",
-        "level": 2,
-        "category": "reflections"
-    },
-    {
-        "question": "What's one idea you live your life by?",
-        "level": 2,
-        "category": "worldview"
-    },
-    {
-        "question": "When you're with me, when do you feel the most cared for?",
-        "level": 3,
-        "category": "relationships"
-    },
-    {
-        "question": "Is there any place or time where you'd like me to give you more attention?",
-        "level": 3,
-        "category": "relationships"
-    },
-    {
-        "question": "What is your favourite sexual fantasy?",
-        "level": 3,
-        "category": "relationships"
-    },
-    {
-        "question": "Is there anything I do that you don't understand?",
-        "level": 3,
-        "category": "relationships"
-    },
-    {
-        "question": "Have you ever considered pursuing a totally different career path from the one you're on?",
-        "level": 2,
-        "category": "reflections"
-    },
-    {
-        "question": "What was the best party you've ever been to?",
-        "level": 1,
-        "category": "past"
-    },
-    {
-        "question": "Do you think there's a big difference between loving someone and being in love with them?",
-        "level": 2,
-        "category": "relationships"
-    },
-    {
-        "question": "What do you think has stayed the same about you ever since high school?",
-        "level": 2,
-        "category": "reflections"
-    },
-    {
-        "question": "What do you want to do with me that we've never done before?",
-        "level": 3,
-        "category": "aspirations"
-    },
-    {
-        "question": "Is there anything you've always wanted to ask me?",
-        "level": 3,
-        "category": "relationships"
-    },
-    {
-        "question": "When do you feel most alive?",
-        "level": 2,
-        "category": "reflections"
-    },
-    {
-        "question": "Do you feel like you're living life to the fullest?",
-        "level": 2,
-        "category": "reflections"
-    },
-    {
-        "question": "What priorities do you have now that are different to what you had in the past?",
-        "level": 2,
-        "category": "reflections"
-    },
-    {
-        "question": "What has been the hardest thing to cope with in your life?",
-        "level": 2,
-        "category": "reflections"
-    },
-    {
-        "question": "Do you prefer hanging out with introverts or extroverts?",
-        "level": 1,
-        "category": "relationships"
-    },
-    {
-        "question": "Would you prefer to be very intelligent or be very empathetic?",
-        "level": 1,
-        "category": "character"
-    },
-    {
-        "question": "What do you love and hate about your culture?",
-        "level": 1,
-        "category": "worldview"
-    },
-    {
-        "question": "If you had to describe yourself without talking about your name, physical features or the work you do, what would you say?",
-        "level": 2,
-        "category": "worldview"
-    },
-    {
-        "question": "Are there some situations where you think being open-minded is a curse?",
-        "level": 1,
-        "category": "worldview"
-    },
-    {
-        "question": "Is there anything you've said or done in your life that still bothers you?",
-        "level": 2,
-        "category": "reflections"
-    },
-    {
-        "question": "How many of the people you went to high school with are still your friends?",
-        "level": 2,
-        "category": "relationships"
-    },
-    {
-        "question": "What's the most memorable roadtrip you've been on?",
-        "level": 1,
-        "category": "past"
-    },
-    {
-        "question": "What's one book that's had an impact on you in the last few years?",
-        "level": 1,
-        "category": "worldview"
-    },
-    {
-        "question": "Is there an event in your life you regret not taking a picture for?",
-        "level": 2,
-        "category": "reflections"
-    },
-    {
-        "question": "What's a small decision you made that ended up having a big impact on your life?",
-        "level": 2,
-        "category": "reflections"
-    },
-    {
-        "question": "How has your life turned out differently to how you imagined it would?",
-        "level": 2,
-        "category": "reflections"
-    },
-    {
-        "question": "When was the last time you screamed at the top of your lungs?",
-        "level": 1,
-        "category": "fun"
-    },
-    {
-        "question": "What ice cream flavour do you find absolutely disgusting?",
-        "level": 0,
-        "category": "fun"
-    },
-    {
-        "question": "Is there anything you do right now you hope to grow out of?",
-        "level": 1,
-        "category": "aspirations"
-    },
-    {
-        "question": "You get to be invisible for a day. What would you do?",
-        "level": 0,
-        "category": "fun"
-    },
-    {
-        "question": "If you could dedicate your life to solving one problem, what would it be?",
-        "level": 2,
-        "category": "aspirations"
-    },
-    {
-        "question": "How many friends do you have on Facebook and how many actually mean something to you?",
-        "level": 2,
-        "category": "relationships"
-    },
-    {
-        "question": "What's one pet peeve you have that you wish you could get rid of?",
-        "level": 1,
-        "category": "fun"
-    },
-    {
-        "question": "If you had 6 hours of free time, what would you do to pass it?",
-        "level": 1,
-        "category": "fun"
-    },
-    {
-        "question": "What's the silliest thing you've heard people say about you?",
-        "level": 1,
-        "category": "fun"
-    },
-    {
-        "question": "Do you have any ridiculous bucket list items you want to do before you die?",
-        "level": 2,
-        "category": "fun"
-    },
-    {
-        "question": "What's the most spontaneous thing you've ever done?",
-        "level": 1,
-        "category": "past"
-    },
-    {
-        "question": "What personality trait do you wish you had?",
-        "level": 1,
-        "category": "character"
-    },
-    {
-        "question": "In 40 years, what do you think you'll be the most nostalgic about?",
-        "level": 1,
-        "category": "reflections"
-    },
-    {
-        "question": "Would you rather go to a bar, a house party or a small gathering of 4-5 people?",
-        "level": 1,
-        "category": "fun"
-    },
-    {
-        "question": "Are any of your friends completely opposite to you?",
-        "level": 1,
-        "category": "relationships"
-    },
-    {
-        "question": "What's the most important object you own?",
-        "level": 2,
-        "category": "reflections"
-    },
-    {
-        "question": "What makes a person beautiful to you?",
-        "level": 3,
-        "category": "worldview"
-    },
-    {
-        "question": "What's the biggest favour you've done for a friend?",
-        "level": 3,
-        "category": "relationships"
-    },
-    {
-        "question": "If you could turn into your partner for a day, what would you want to try?",
-        "level": 3,
-        "category": "curiosity"
-    },
-    {
-        "question": "What classes would you love to take together?",
-        "level": 3,
-        "category": "culture"
-    },
-    {
-        "question": "What would be your perfect day?",
-        "level": 3,
-        "category": "aspirations"
-    },
-    {
-        "question": "What's the worst name you could give a child?",
-        "level": 0,
-        "category": "fun"
-    },
-    {
-        "question": "In an ideal world, what job do you think you were born to do?",
-        "level": 2,
-        "category": "aspirations"
-    },
-    {
-        "question": "What percentage of your life do you feel truly alive?",
-        "level": 2,
-        "category": "aspirations"
-    },
-    {
-        "question": "How much do you care about double texting?",
-        "level": 0,
-        "category": "fun"
-    },
-    {
-        "question": "What's the worst pickup line you've heard or used?",
-        "level": 0,
-        "category": "fun"
-    },
-    {
-        "question": "What's the most embarrassing thing you've done to try to get your crush's attention",
-        "level": 0,
-        "category": "fun"
-    },
-    {
-        "question": "Was there ever a time where you couldn't stop wetting the bed?",
-        "level": 0,
-        "category": "fun"
-    },
-    {
-        "question": "What was your worst bout of food poisoning?",
-        "level": 0,
-        "category": "past"
-    },
-    {
-        "question": "What was the worst outing you've had with me?",
-        "level": 3,
-        "category": "past"
-    },
-    {
-        "question": "What phrase or sentence do I use way too much?",
-        "level": 3,
-        "category": "character"
-    },
-    {
-        "question": "Who do you think is better at managing finances?",
-        "level": 3,
-        "category": "character"
-    },
-    {
-        "question": "Imitate how your partner behaves when they get angry.",
-        "level": 3,
-        "category": "fun"
-    },
-    {
-        "question": "What did you think about when you first met me?",
-        "level": 3,
-        "category": "past"
-    },
-    {
-        "question": "Who's more likely to be running late?",
-        "level": 3,
-        "category": "fun"
-    },
-    {
-        "question": "Who's the better driver?",
-        "level": 3,
-        "category": "fun"
-    },
-    {
-        "question": "Who's more likely to get lost?",
-        "level": 3,
-        "category": "fun"
-    },
-    {
-        "question": "Who's more likely to be the star of a bad reality TV show?",
-        "level": 3,
-        "category": "fun"
-    },
-    {
-        "question": "What's something you hate about modern dating?",
-        "level": 2,
-        "category": "relationships"
-    },
-    {
-        "question": "What's the coolest thing you've done by yourself?",
-        "level": 2,
-        "category": "past"
-    },
-    {
-        "question": "What do you do when you want to show your love for someone else?",
-        "level": 2,
-        "category": "relationships"
-    },
-    {
-        "question": "What percentage of people your age do you think have experienced real heartbreak?",
-        "level": 2,
-        "category": "relationships"
-    },
-    {
-        "question": "How do you feel about your age?",
-        "level": 2,
-        "category": "worldview"
-    },
-    {
-        "question": "What's one thing you've done you wouldn't let anyone else do?",
-        "level": 2,
-        "category": "past"
-    },
-    {
-        "question": "Who's more likely to lock themselves out of their house?",
-        "level": 3,
-        "category": "fun"
-    },
-    {
-        "question": "Who's more likely to do weird things in public?",
-        "level": 3,
-        "category": "fun"
-    },
-    {
-        "question": "What was the first concert you ever went to?",
-        "level": 1,
-        "category": "past"
-    },
-    {
-        "question": "What kind of parent do you think you'd be?",
-        "level": 3,
-        "category": "aspirations"
-    },
-    {
-        "question": "Do you think I'm any good at reading what you're feeling?",
-        "level": 3,
-        "category": "relationships"
-    },
-    {
-        "question": "For the next whole day we have with each other, how would you want to spend it?",
-        "level": 3,
-        "category": "aspirations"
-    },
-    {
-        "question": "Explore space, or explore the ocean. Which would you sign up for?",
-        "level": 1,
-        "category": "fun"
-    },
-    {
-        "question": "What do you think is the perfect amount of people to invite for a house party?",
-        "level": 1,
-        "category": "fun"
-    },
-    {
-        "question": "If there anyone in your life you secretly think would be better off without you?",
-        "level": 2,
-        "category": "relationships"
     }
 ]
 

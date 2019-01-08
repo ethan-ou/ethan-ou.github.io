@@ -205,7 +205,6 @@ button.settings {
     box-shadow: none;
 }
 
-
 button.settings:active {
     color: #000156;
     transform: scale(0.95);
