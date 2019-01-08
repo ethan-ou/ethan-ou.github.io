@@ -98,7 +98,7 @@ p {
 }
 
 /*Animations*/
-.deepTitle, .deepSubtitle {
+.deepTitle, .deepSubtitle, .svg-intro {
   text-align: center; 
 -webkit-animation: fadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
         animation: fadein 1.5s;
