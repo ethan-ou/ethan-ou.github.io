@@ -2440,7 +2440,7 @@ var questionList = [
         "category": "fun"
     },
     {
-        "question": "What's the most embarrassing thing you've done to try to get your crush's attention",
+        "question": "What's the most embarrassing thing you've done to try to get your crush's attention?",
         "level": 0,
         "category": "fun"
     },
